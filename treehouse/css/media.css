@@ -1,0 +1,38 @@
+@media screen and (max-width:1024px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    html {
+        font-size: 8px;
+    }
+    .vis-large {
+        display: none;
+    }
+    .m-menu-link {
+        display: block;
+    }
+    .box-cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-card {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+    .project-box {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:420px) {
+    html {
+        font-size: 7px;
+    }
+    .project-box {
+        width: 60vw;
+    }
+}
