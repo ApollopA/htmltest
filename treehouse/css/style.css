@@ -252,6 +252,7 @@
     
     .box-card>p {
         text-align: center;
+        width: 100%
     }
     
     .rx-box {
@@ -481,7 +482,7 @@
     }
     
     .close-m-menu {
-        position: fixed;
+        position: absolute;
         right: 16.5vh;
         top: 40px;
         font-size: 5rem;
